@@ -1,6 +1,6 @@
 # Surge Ê¹ÓÃÊÖ²á
 
-Surge Õâ¸öÊÇ iOS9 ÉÏµÄÉñÆ÷£¬×÷ÕßËäÈ»ÔÚ[¹ÙÍø](http://surge.run/manual/)ËµÃ÷ Surge ÊÇ¿ª·¢ÕßµÄÍøÂçµ÷ÊÔ¹¤¾ß£¬µ«ÊÇÕâ¸ö¹¤¾ß×Ô´òÉÏ¼ÜÒÔÀ´£¬Æä×î¹ã·ºµÄÓ¦ÓÃ³¡¾°¾ø¶Ô°üÀ¨ **iOS9Ìİ×Ó** ÕâÒ»¸ÕĞè£¬iOS9 ÉÏÓĞÁË Surge Ö®ºó£¬iPhone Ô½ÓüµÄÀíÓÉÓÖÉÙÁËÒ»Ìõ¡£
+Surge Õâ¸öÊÇ iOS10 ÉÏµÄÉñÆ÷£¬×÷ÕßËäÈ»ÔÚ[¹ÙÍø](http://nssurge.com/)ËµÃ÷ Surge ÊÇ¿ª·¢ÕßµÄÍøÂçµ÷ÊÔ¹¤¾ß£¬µ«ÊÇÕâ¸ö¹¤¾ß×Ô´òÉÏ¼ÜÒÔÀ´£¬Æä×î¹ã·ºµÄÓ¦ÓÃ³¡¾°¾ø¶Ô°üÀ¨ **iOS10Ìİ×Ó** ÕâÒ»¸ÕĞè£¬iOS10ÉÏÓĞÁË Surge Ö®ºó£¬iPhone Ô½ÓüµÄÀíÓÉÓÖÉÙÁËÒ»Ìõ¡£
 
 ### Ö÷Òª¹¦ÄÜ
 
@@ -22,7 +22,7 @@ Surge µÄÖ÷Òª¹¦ÄÜ°üÀ¨ÒÔÏÂ£º
 
 ÎªÁËÈÃÊ¹ÓÃÕßÄÜ¹»¸üºÃµØÀí½â Surge µÄ¸÷ÏîÅäÖÃµÄ×÷ÓÃ£¬×÷ÕßÔÚ¹ÙÍøÉÏÌØÒâ»¨ÁËÒ»¸öÕÂ½ÚÃèÊöÆäÈí¼ş¹¹¼Ü
 
-![Surge Architecture](http://surge.run/manual/Surge-Architecture.png)
+![Surge Architecture](https://manual.nssurge.com/Surge-Architecture.png)
 
 Surge Ö÷Òª°üÀ¨ **Surge proxy server** Óë **Surge TUN interface** ÕâÁ½¸ö×é¼ş£¬·Ö±ğ¸ºÔğ HTTP/HTTPS ´úÀíÒÔ¼° IP ´úÀí¡£
 
@@ -30,24 +30,24 @@ Surge Ö÷Òª°üÀ¨ **Surge proxy server** Óë **Surge TUN interface** ÕâÁ½¸ö×é¼ş£¬·Ö±
 
 - Surge TUN interface: iOS ÉÏ´ó²¿·ÖÓ¦ÓÃ³ÌĞòµÄÍøÂç½»»¥Ê¹ÓÃ HTTP/HTTPS£¬µ«Ò²´æÔÚ²¿·ÖÓ¦ÓÃ³ÌĞò(Èç:iOSÓÊ¼ş¿Í»§¶Ë¡¢Facebook¿Í»§¶Ë£©µÈÓ¦ÓÃ³ÌĞòÊ¹ÓÃÆäËûµÄÍ¨Ñ¶·½Ê½£¨Èç£ºSPDYµÈ£©£¬ÕâĞ©Ó¦ÓÃÎŞ·¨±» Proxy server Ëù´úÀí£¬Õâ¾ÍĞèÒªÊ¹ÓÃ¸üÎªµ×²ãµÄTUN interface ËíµÀ·½Ê½¡£Surge ¿ÉÒÔÍ¨¹ı ``bypass-tun`` Ö¸¶¨ÄÄĞ©Êı¾İÁ÷Á¿²»ËÍ TUN interface ´¦Àí
 
-		> ×¢Òâ: µ±Ç° Surge TUN interface Ö»ÄÜ´¦Àí TCP Á÷Á¿£¬¶ÔÓÚ ICMP¡¢UDP Á÷Á¿½«±»Ö±½Ó¶ªÆú£¬Òò´ËĞèÒªÍ¨¹ıÅäÖÃ ``bypass-tun`` Ñ¡ÏîÀ´·ÅĞĞÕâĞ©Á÷Á¿¡£
+> ×¢Òâ: µ±Ç° Surge TUN interface Ö»ÄÜ´¦Àí TCP Á÷Á¿£¬¶ÔÓÚ ICMP¡¢UDP Á÷Á¿½«±»Ö±½Ó¶ªÆú£¬Òò´ËĞèÒªÍ¨¹ıÅäÖÃ ``bypass-tun`` Ñ¡ÏîÀ´·ÅĞĞÕâĞ©Á÷Á¿¡£
 
 ### ÅäÖÃÎÄ¼ş
 
-		Surge ¿ÉÒÔÍ¨¹ı ``URLÏÂÔØ`` ºÍ ``iTunes¸üĞÂ`` ÕâÁ½ÖÖ·½Ê½µ¼ÈëÅäÖÃÎÄ¼ş£¬ÅäÖÃÎÄ¼şÓÉ¶à¸ö¶Î(Section)¹¹³É£¬Ö÷Òª°üÀ¨:General, Proxy, RuleµÈ¼¸¸ö²¿·Ö¡£
+Surge ¿ÉÒÔÍ¨¹ı ``URLÏÂÔØ`` ºÍ ``iTunes¸üĞÂ`` ÕâÁ½ÖÖ·½Ê½µ¼ÈëÅäÖÃÎÄ¼ş£¬ÅäÖÃÎÄ¼şÓÉ¶à¸ö¶Î(Section)¹¹³É£¬Ö÷Òª°üÀ¨:General, Proxy, RuleµÈ¼¸¸ö²¿·Ö¡£
 
 #### Í¨ÓÃÅäÖÃ
 
-		Í¨ÓÃÅäÖÃ¶Î``[general]``µÄÖ÷ÒªÅäÖÃÈçÏÂ:
+Í¨ÓÃÅäÖÃ¶Î**[general]**µÄÖ÷ÒªÅäÖÃÈçÏÂ:
 
-		```
-		[General]
-		loglevel = verbose
-		bypass-system = true
-		skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local
-		bypass-tun = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
-		dns-server = 8.8.8.8, 8.8.4.4
-		```
+```
+[General]
+loglevel = verbose
+bypass-system = true
+skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local
+bypass-tun = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
+dns-server = 8.8.8.8, 8.8.4.4
+```
 
 ##### loglevel 
 
@@ -94,7 +94,7 @@ dns-server ÓÃÓÚÖ¸¶¨ iOS Éè±¸ËùÊ¹ÓÃµÄÓòÃû½âÎö·şÎñÆ÷£¬iOS ±¾ÉíÊÇ²»ÔÊĞíĞŞ¸Ä·äÎÑÍøÂç
 
 #### ´úÀíÅäÖÃ
 
-´úÀíÅäÖÃ¶Î ``[Proxy]`` ÓÃÓÚÅäÖÃ HTTP, HTTPS ÒÔ¼° SOCKS5 ´úÀí·şÎñÆ÷£¨Ìİ×ÓµÄ¹Ø¼ü£©£¬ÅäÖÃµÄÀı×ÓÈçÏÂ:
+´úÀíÅäÖÃ¶Î **[Proxy]** ÓÃÓÚÅäÖÃ HTTP, HTTPS ÒÔ¼° SOCKS5 ´úÀí·şÎñÆ÷£¨Ìİ×ÓµÄ¹Ø¼ü£©£¬ÅäÖÃµÄÀı×ÓÈçÏÂ:
 
 ```
 [Proxy]
